@@ -20,7 +20,7 @@ Local test:
 
 The Raspberry Pi registers itself with a POST request:
 
-    curl --data "name=test-pi-1&ip=192.168.0.1" $APP_URL_/pi
+    curl --data "name=test-pi-1&ip=192.168.0.1" $APP_URL/pi
 
 The "registerpi.py" script can be used to auto-detect and register the ip.
 
