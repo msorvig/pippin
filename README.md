@@ -1,6 +1,6 @@
 ## pippin ("pi ping")
 
-An google app engine apllication for trakcing raspberry pis.
+An google app engine service for trakcing Raspberry Pis.
 
 Your Raspberry Pi on the local network, but where? The DHCP lease might have expired and your Pi will find itself with a new IP adress.
 
@@ -32,9 +32,9 @@ See all registered Raspberries:
 
 Get infor for one Raspberry as a JSON structure:
 
-    curl $URL/pi/raspberry-name
+    curl $APP_URL/pi/raspberry-name
 
 Get the IP for a raspberry as plain text (useful for scripting):
 
-    curl $URL/pi/raspberry-name/ip
+    curl $APP_URL/pi/raspberry-name/ip
 
